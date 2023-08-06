@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import A from './Examples/A';
+import B from './Examples/B';
+import C from './Examples/C';
+import Form from './Form';
+import Routing from './Routing';
+import HookCounter from './component/HookCounter';
+import HookObject from './component/HookObject';
+import LifeCycleA from './component/LifeCycleA';
+import MouseCom from './component/MouseCom';
+import PostList from './component/PostList';
+import Product from './component/Product';
+import Suresh from './components/Suresh';
+import Frji from './frji'
+import New1 from './new1';
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{margin:"2px 20px"}}>
+      {/* <Routing/>
+      <h1>Hello World!</h1>
+     <Frji course="BCA"/>
+     <New1/> */}
+     {/* <Form/> */}
+     {/* <LifeCycleA/>
+     <Product/> */}
+     {/* <PostList/> */}
+     {/* <HookCounter/>
+     <HookObject/> */}
+     {/* <MouseCom/> */}
+     {/* <A/> */}
+     {/* <B/> */}
+     {/* <C/> */}
+     <Suresh/>
     </div>
   );
 }
-
-export default App;
